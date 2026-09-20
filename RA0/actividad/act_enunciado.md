@@ -9,7 +9,7 @@ En este reto tendréis que analizar un problema realista, identificar las entida
 El reto se realizará en dos fases:
 
 1. **Diseño en la pizarra:** análisis del problema y diseño del modelo UML.
-2. **Implementación en IntelliJ:** desarrollo de la solución en Java, Spring Boot y JUnit.
+2. **Implementación en IntelliJ:** desarrollo de la solución en Java y Spring Boot.
 
 > ⚠️ **Importante:** no comencéis a programar hasta haber terminado el diseño inicial en la pizarra.
 
@@ -398,69 +398,9 @@ Para los mensajes por consola se utilizará el logger de Lombok mediante `@Slf4j
 
 ---
 
-# 🧪 13. Pruebas automatizadas con JUnit
-
-Además de comprobar manualmente el funcionamiento de la aplicación, utilizaremos **JUnit** para crear pruebas automatizadas.
-
-El objetivo es recordar cómo comprobar mediante código que nuestro programa se comporta como esperamos.
-
-No es necesario crear una batería exhaustiva de pruebas. Nos centraremos en los comportamientos más importantes.
-
-Como mínimo, probaremos:
-
-### 💰 Nóminas
-
-Diferentes casos de cálculo de nómina, incluyendo los distintos roles.
-
-Por ejemplo:
-
-```text
-DADO un empleado con:
-
-Salario base: 1500 €
-Bonus:          200 €
-Rol:           CLERK
-
-CUANDO se procesa su nómina
-
-ENTONCES:
-
-Bruto = 1700 €
-Neto  = 1530 €
-```
-
-El test deberá comprobar automáticamente que el resultado obtenido coincide con el esperado.
-
-### 🗄️ Repositorio
-
-También probaremos el repositorio en memoria:
-
-* Guardar un empleado.
-* Buscar un empleado.
-* Obtener los empleados.
-* Eliminar un empleado.
-* Comprobar qué ocurre cuando buscamos un empleado que no existe.
-
-### 🔗 Relaciones
-
-Podremos crear pruebas para comprobar algunos comportamientos del modelo:
-
-* Asociación con un centro de trabajo.
-* Asignación de equipamiento.
-* Asignación de proyectos.
-* Relación de supervisión.
-
-### 🚫 Importante
-
-Los tests deben comprobar **comportamiento real**.
-
-No sirve simplemente con comprobar que un objeto no es `null` o utilizar una aserción que siempre sea verdadera.
-
-La idea es que, si introducimos un error en el código, **alguna de nuestras pruebas sea capaz de detectarlo**.
-
 ---
 
-# ⚙️ 14. Requisitos técnicos
+# ⚙️ 13. Requisitos técnicos
 
 La aplicación deberá utilizar:
 
@@ -478,7 +418,6 @@ La aplicación deberá utilizar:
 * `@Slf4j`.
 * Inyección de dependencias mediante constructor.
 * Atributos `final` para las dependencias.
-* JUnit para las pruebas automatizadas.
 
 No se utilizará:
 
@@ -488,7 +427,7 @@ No se utilizará:
 
 ---
 
-# 🧠 15. Al finalizar el reto...
+# 🧠 14. Al finalizar el reto...
 
 No buscamos solamente que la aplicación funcione.
 
@@ -505,12 +444,11 @@ Al terminar deberíais poder responder, entre otras, a preguntas como:
 * ¿Qué responsabilidad tiene un repositorio?
 * ¿Por qué el servicio no debería acceder directamente al `Map`?
 * ¿Qué ventajas tiene la inyección por constructor?
-* ¿Qué comprueba un test unitario?
 * ¿Qué ocurre cuando cerramos la aplicación?
 
 ---
 
-# 🚀 16. Y ahora viene Acceso a Datos...
+# 🚀 15. Y ahora viene Acceso a Datos...
 
 Hasta ahora todos nuestros datos viven en memoria:
 
