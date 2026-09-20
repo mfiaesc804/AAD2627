@@ -121,7 +121,6 @@ Entra en [Spring Initializr](https://start.spring.io/) y define la estructura t�
     * **Spring Web** (necesaria para habilitar los componentes REST de la aplicaci처n).
     * **Lombok** (la usaremos para el punto 4)
 
-![Configuraci처n de Spring Initializr](img/spring-initializr.png)
 
 ### 3.2 Generaci처n e Integraci처n
 1. Haz clic en el bot처n **Generate** (o pulsa `Ctrl + Enter`) para descargar el archivo ZIP autogenerado.
