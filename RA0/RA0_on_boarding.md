@@ -30,7 +30,7 @@ Para mantener todo organizado de forma portátil en tu equipo o unidad USB, sigu
 1. Crea o descomprime la aplicación en un directorio raíz limpio, evitando espacios en la ruta. Por ejemplo:
    `C:\apuntes-aad\intellij-idea-community-portable\`
 2. Crea una carpeta dedicada para tu área de trabajo (workspace) donde se guardarán todos los proyectos de clase:
-   `C:\apuntes-aad\intellij-idea-community-portable\workspace\`
+   `C:\apuntes-aad\intellij-idea-community-portable\workspace\AAD`
 3. Crea una carpeta para centralizar los JDKs (Kits de Desarrollo de Java) que vayas a descargar:
    `C:\apuntes-aad\intellij-idea-community-portable\jdks\`
 
