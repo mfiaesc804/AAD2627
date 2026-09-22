@@ -22,7 +22,7 @@ Este documento sirve como guía oficial de referencia rápida para configurar el
 1. Entra en el sitio web de Portapps: [Portapps - IntelliJ IDEA Community Portable](https://portapps.io/app/intellij-idea-community-portable/).
 2. Descarga la versión **Portable (ZIP)** correspondiente a la arquitectura de tu sistema (generalmente Windows 64-bits).
 
-![Descarga de IntelliJ Community Portable](/img/intellij-portable-download.png)
+
 
 ### 1.2 Descompresión y Estructura de Directorios
 Para mantener todo organizado de forma portátil en tu equipo o unidad USB, sigue esta estructura estricta de carpetas:
