@@ -234,7 +234,7 @@ public class AadApplication implements CommandLineRunner {
 1. Descarga el instalador de Docker Desktop para tu sistema operativo desde: [Docker Desktop](https://www.docker.com/products/docker-desktop/).
 2. Sigue los pasos del asistente de instalación manteniendo las opciones por defecto y reinicia tu equipo cuando la instalación lo solicite.
 3. **Solución de problemas comunes:** Si Docker muestra un error relacionado con la virtualización al iniciar, deberás acceder a la BIOS/UEFI de tu ordenador al arrancar y habilitar la opción de **Tecnología de Virtualización (VT-x / AMD-V)**.
-4. Activar la Virtualización en WindowsDocker necesita que el hipervisor de Windows y el motor de Linux estén activos.  En el menú de inicio de Windows, busca "Activar o desactivar las características de Windows" y ábrelo. Asegúrate de marcar las siguientes tres casillas:Plataforma de máquina virtualSubsistema de Windows para Linux (WSL)Hyper-V (si te aparece disponible, comúnmente en Windows Pro) Haz clic en Aceptar y reinicia. 
+4. Activar la Virtualización en WindowsDocker necesita que el hipervisor de Windows y el motor de Linux estén activos.  En el menú de inicio de Windows, busca "Activar o desactivar las características de Windows" y ábrelo. Asegúrate de marcar las siguientes tres casillas: Plataforma de máquina virtual, Subsistema de Windows para Linux (WSL), Hyper-V (si te aparece disponible, comúnmente en Windows Pro). Haz clic en Aceptar y reinicia. 
 
 ### 5.2 Comprobar el Funcionamiento de Docker
 Abre una terminal o consola de comandos y ejecuta:
