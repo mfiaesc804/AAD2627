@@ -1,8 +1,57 @@
 # RA1. Desarrolla aplicaciones que gestionan información almacenada en ficheros identificando el campo de aplicación de los mismos y utilizando clases específicas.
-
 ---
 
 # UD01. MANEJO DE FICHEROS
+
+## ÍNDICE
+
+1. [Introducción](#introducción)
+   - [1.1. Definición de fichero](#definición-de-fichero)
+   - [1.2. Breve evolución histórica](#breve-evolución-histórica)
+   - [1.3. Importancia actual de los ficheros](#importancia-actual-de-los-ficheros)
+   - [1.4. Tipos de acceso a los ficheros](#tipos-de-acceso-a-los-ficheros)
+   - [1.5. Manejo de ficheros en Java](#manejo-de-ficheros-en-java)
+   - [1.6. Ejemplos ilustrativos en Java](#ejemplos-ilustrativos-en-java)
+   - [1.7. Conclusión del apartado](#conclusión-del-apartado)
+2. [Tipos de ficheros según su contenido](#tipos-de-ficheros-según-su-contenido)
+   - [2.1. Ficheros de texto](#ficheros-de-texto)
+   - [2.2. Ficheros binarios](#ficheros-binarios)
+   - [2.3. Ficheros mixtos y formatos modernos](#ficheros-mixtos-y-formatos-modernos)
+   - [2.4. Codificaciones de texto](#codificaciones-de-texto)
+   - [2.5. Conclusión del apartado](#conclusión-del-apartado-1)
+3. [La clase File](#la-clase-file)
+   - [3.1. Principales características](#principales-características)
+   - [3.2. Métodos más importantes](#métodos-más-importantes)
+   - [3.3. Limitaciones de File](#limitaciones-de-file)
+   - [3.4. Comparación con NIO.2](#comparación-con-nio2)
+   - [3.5. Conclusión del apartado](#conclusión-del-apartado-2)
+4. [Formas de acceso a ficheros](#formas-de-acceso-a-ficheros)
+   - [4.1. Acceso secuencial](#acceso-secuencial)
+   - [4.2. Acceso aleatorio](#acceso-aleatorio)
+   - [4.3. Diferencias principales](#diferencias-principales)
+   - [4.4. Acceso combinado en aplicaciones modernas](#acceso-combinado-en-aplicaciones-modernas)
+   - [4.5. Conclusión del apartado](#conclusión-del-apartado-3)
+5. [Operaciones sobre ficheros en Java](#operaciones-sobre-ficheros-en-java)
+   - [5.1.1. Apertura](#apertura)
+   - [5.1.2. Lectura](#lectura)
+   - [5.1.3. Salto](#salto)
+   - [5.1.4. Escritura](#escritura)
+   - [5.1.5. Cierre](#cierre)
+   - [5.1.6. Resumen gráfico del ciclo](#resumen-gráfico-del-ciclo)
+   - [5.1.7. Buenas prácticas](#buenas-prácticas)
+   - [5.1.8. Conclusión del apartado](#conclusión-del-apartado-4)
+6. [Clases relacionadas con flujos de datos](#clases-relacionadas-con-flujos-de-datos)
+   - [6.1. Flujos de texto](#flujos-de-texto)
+   - [6.2. Flujos binarios](#flujos-binarios)
+   - [6.3. Diferencias entre flujos de texto y binarios](#diferencias-entre-flujos-de-texto-y-binarios)
+   - [6.4. Conclusión del apartado](#conclusión-del-apartado-5)
+7. [Clases con recodificación](#clases-con-recodificación)
+   - [7.1. Codificación en Java](#codificación-en-java)
+   - [7.2. Clases para recodificación](#clases-para-recodificación)
+   - [7.3. Buenas prácticas](#buenas-prácticas-1)
+   - [7.4. Conclusión del apartado](#conclusión-del-apartado-6)
+
+---
 
 ÍNDICE
 
