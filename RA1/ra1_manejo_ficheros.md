@@ -53,7 +53,7 @@
 
 ---
 
-ÍNDICE
+
 
 # Introducción
 
